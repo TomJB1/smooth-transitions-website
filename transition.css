@@ -1,0 +1,14 @@
+#circle{
+    background-color: rgb(237, 149, 24);
+    position:absolute;
+    width: 100dvw;
+    height: 100vh;
+    top: 0;
+    clip-path: circle(0px at center);
+    transition: clip-path .5s;
+}
+
+#circle.cover 
+{
+    clip-path: circle(100% at center);
+}
